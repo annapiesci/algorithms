@@ -16,9 +16,14 @@ public class SortingAlgorithms {
         algorithms.add(new QuickSortV1(arr));
         algorithms.add(new QuickSortV2(arr));
         algorithms.add(new RadixSort(arr));
+        algorithms.add(new MergeSort(arr));
+        algorithms.add(new HeapSort(arr));
+        algorithms.add(new SelectionSort(arr));
+        algorithms.add(new InsertionSort(arr));
+        algorithms.add(new BeadSort(arr));
     }
 
-    public void sort() {
+    public void execute() {
         for (Sort algorithm : algorithms) algorithm.sort();
     }
 

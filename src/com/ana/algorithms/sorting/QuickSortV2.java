@@ -2,7 +2,7 @@ package com.ana.algorithms.sorting;
 
 class QuickSortV2 extends Sort {
 
-    public QuickSortV2(int[] arr) {
+    QuickSortV2(int[] arr) {
         super(arr);
     }
 

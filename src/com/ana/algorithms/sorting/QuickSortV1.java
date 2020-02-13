@@ -5,7 +5,7 @@ import java.util.Arrays;
 class QuickSortV1 extends Sort {
     int  pivotIndex, pivot;
 
-    public QuickSortV1(int[] arr) {
+    QuickSortV1(int[] arr) {
         super(arr);
     }
 

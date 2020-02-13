@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 class BubbleSort extends Sort {
 
-    public BubbleSort(int[] arr) {
+    BubbleSort(int[] arr) {
         super(arr);
     }
 
