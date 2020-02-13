@@ -12,6 +12,7 @@ public class Main {
         System.out.println(Arrays.toString(arr));
 
         QuickSort sq = new QuickSort();
+
         sq.sort(arr);
 
         System.out.println(sq.toString());
