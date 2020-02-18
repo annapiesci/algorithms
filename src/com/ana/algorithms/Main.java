@@ -2,6 +2,7 @@ package com.ana.algorithms;
 
 import com.ana.algorithms.calculation.Factorial;
 import com.ana.algorithms.cryptography.Caesar;
+import com.ana.algorithms.cryptography.Vigenere;
 import com.ana.algorithms.generation.GenerateFibonacciNumbers;
 import com.ana.algorithms.sorting.SortingAlgorithms;
 
@@ -15,11 +16,13 @@ public class Main {
         GenerateFibonacciNumbers fn = new GenerateFibonacciNumbers(9);
         Factorial f = new Factorial();
         Caesar c = new Caesar(15);
+        Vigenere v = new Vigenere();
 
         String s = c.crypt("Cryptography");
+        String vs = v.crypt("Cryptography", "ana");
 
-        System.out.println(s + "\n");
-        System.out.println(c.encrypt(s));
+        System.out.println(vs + "\n");
+        System.out.println(v.encrypt(vs, "ana"));
 
         //f.calculate(6);
 
