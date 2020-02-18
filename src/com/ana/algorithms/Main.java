@@ -14,7 +14,7 @@ public class Main {
         SortingAlgorithms sortingAlgorithms = new SortingAlgorithms(arr);
         GenerateFibonacciNumbers fn = new GenerateFibonacciNumbers(9);
         Factorial f = new Factorial();
-        Caesar c = new Caesar(6);
+        Caesar c = new Caesar(15);
 
         String s = c.crypt("Cryptography");
 
