@@ -1,10 +1,6 @@
 package com.ana.algorithms;
 
-import com.ana.algorithms.calculation.Factorial;
-import com.ana.algorithms.cryptography.Caesar;
-import com.ana.algorithms.cryptography.Vigenere;
-import com.ana.algorithms.generation.GenerateFibonacciNumbers;
-import com.ana.algorithms.sorting.SortingAlgorithms;
+import com.ana.algorithms.exercises.Exercises;
 
 public class Main {
 
@@ -12,6 +8,7 @@ public class Main {
         int[] arr = {4,10,8,7,6,5,3,12,14};
         //int[] arr = {462, 273, 1465, 722, 383};
 
+        /*
         SortingAlgorithms sortingAlgorithms = new SortingAlgorithms(arr);
         GenerateFibonacciNumbers fn = new GenerateFibonacciNumbers(9);
         Factorial f = new Factorial();
@@ -23,6 +20,12 @@ public class Main {
 
         System.out.println(vs + "\n");
         System.out.println(v.encrypt(vs, "ana"));
+        */
+
+        System.out.println(Exercises.isPalindrome("nije palindrom"));
+        System.out.println(Exercises.isPalindrome(1001));
+        System.out.println(Exercises.isArmstrongNumber(153));
+        System.out.println(Exercises.isArmstrongNumber(135));
 
         //f.calculate(6);
 
