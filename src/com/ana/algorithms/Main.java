@@ -1,13 +1,19 @@
 package com.ana.algorithms;
 
 import com.ana.algorithms.exercises.Exercises;
+import com.ana.algorithms.linkedList.LinkedListExercises;
+import com.ana.algorithms.sorting.SortingAlgorithms;
+import com.ana.algorithms.trees.TreesExercises;
 
 public class Main {
 
     public static void main(String[] args) {
         int[] arr = {4,10,8,4,6,5,8,10,4};
         int[] arr2 = {462, 273, 1465, 722, 383};
+        int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
 
+        SortingAlgorithms.execute(arr);
+        System.out.println(SortingAlgorithms.writeResult());
         /*
         SortingAlgorithms sortingAlgorithms = new SortingAlgorithms(arr);
         GenerateFibonacciNumbers fn = new GenerateFibonacciNumbers(9);
@@ -70,6 +76,16 @@ public class Main {
 
         //Exercises.isAnagram("eleven plus two", "twelve plus one");
 
-        Exercises.reverseNumber(123456);
+        //Exercises.reverseNumber(123456);
+
+        //Exercises.GCD(54, 24);
+
+        //Exercises.firstNonRepeated("anabanana");
+
+        //LinkedListExercises.test();
+
+        //Exercises.transposeMatrix(matrix);
+
+        TreesExercises.test();
     }
 }
