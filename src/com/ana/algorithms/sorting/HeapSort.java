@@ -7,9 +7,9 @@ class HeapSort extends Sort {
 
     @Override
     void sort() {
-        long startTime = System.nanoTime();
-        heapSort();
-        this.elapsedTime = System.nanoTime() - startTime;
+        //long startTime = System.nanoTime();
+        //heapSort();
+        //this.elapsedTime = System.nanoTime() - startTime;
     }
 
     private void heapSort() {}
